@@ -157,4 +157,3 @@ să pică. Detalii în [`tests/README.md`](tests/README.md).
 ## Licență
 
 MIT — vezi [`LICENSE`](LICENSE).
-
