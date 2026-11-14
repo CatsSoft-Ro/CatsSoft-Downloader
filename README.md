@@ -111,7 +111,6 @@ CatsSoft-Downloader/
 ├── tests/                      # 153 de teste + controale negative
 ├── main.py                     # punct de intrare al pachetului
 ├── build_single_file.py        # pachet → fișier unic
-└── CatsSoft_Downloader_v6.13_Plexo_Engine.py   # artefactul generat
 ```
 
 Fiecare bloc de cod poartă ancora cu linia sa din fișierul original
