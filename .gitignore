@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller (executabilul se publica ca asset de Release, nu in repo)
+build/
+dist/
+*.spec
+
+# Executabilele nu se versioneaza in git
+*.exe
+*.msi
+
+# Date de utilizator - nu au ce cauta in repo
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+config.json
+downloads_history.db
+
+# Legaturi si fisiere temporare
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+
+# Editori
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,17 @@
+# Obligatoriu: pastreaza LF peste tot.
+#
+# Fisierul unic generat este comparat BYTE cu BYTE cu ce produce
+# build_single_file.py. Daca git ar converti LF -> CRLF la checkout,
+# verificarea ar raporta un diferenta falsa, iar artefactul livrat ar
+# divergi de sursa. Cu regula de mai jos, repository-ul e identic pe
+# orice platforma.
+* text=auto eol=lf
+
+# Binare
+*.png binary
+*.ico binary
+*.exe binary
+*.db binary
+*.mp4 binary
+*.woff binary
+*.woff2 binary
